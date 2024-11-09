@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <img src="public/pic/pizzeria.png" alt="Pizza Logo" />
+        <img src="/images/pizzeria.png" alt="Pizza Logo" />
       </div>
       <nav>
         <ul className="nav-links">
