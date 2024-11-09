@@ -1,0 +1,33 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3e4dc;
+    color: #555;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer button:hover {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    scale: 0.9;
+}

@@ -1,0 +1,37 @@
+.hero {
+    background-image: url('./public/pic/bg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-buttons .order-btn,
+.hero-buttons .build-btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.hero-buttons .order-btn:hover,
+.hero-buttons .build-btn:hover {
+    background-color: #e68a00;
+    scale: 0.9;
+    transition: all 0.3s;
+}

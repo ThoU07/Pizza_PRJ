@@ -1,0 +1,21 @@
+.pizza-menu {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff8f0;
+    color: black;
+  }
+  
+  .pizza-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pizza-item {
+    margin: 15px;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
