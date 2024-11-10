@@ -1,8 +1,8 @@
 import React from "react";
-
+import "../Form/ModalForm.css";
 const RegisterForm = () => {
   return (
-    <form>
+    <form className="login-form" action="/submit-login" method="POST">
       <h2>Register</h2>
       <label>
         Username:
@@ -12,7 +12,9 @@ const RegisterForm = () => {
         Password:
         <input type="password" name="password" required />
       </label>
-      <button type="submit">Register</button>
+      <button className="formbtn" type="submit">
+        Register
+      </button>
     </form>
   );
 };

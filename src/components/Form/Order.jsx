@@ -1,8 +1,9 @@
 import React from "react";
+import "../Form/ModalForm.css";
 
 const OrderForm = () => {
   return (
-    <form>
+    <form className="login-form" action="/submit-login" method="POST">
       <h2>Order Pizza</h2>
       <label>
         Pizza Type:
@@ -12,7 +13,9 @@ const OrderForm = () => {
         Quantity:
         <input type="number" name="quantity" required />
       </label>
-      <button type="submit">Place Order</button>
+      <button className="formbtn" type="submit">
+        Place Order
+      </button>
     </form>
   );
 };
