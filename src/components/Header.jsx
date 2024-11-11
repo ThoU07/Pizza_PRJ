@@ -37,7 +37,7 @@ const Header = () => {
             </button>
           </li>
           <li>
-            <button onClick={() => openModal(<SignInForm />)}>Order</button>
+            <button onClick={() => openModal(<SignInForm />)}>Sign In</button>
           </li>
           <li>
             <button onClick={() => openModal(<ContactForm />)}>Contact</button>

@@ -56,3 +56,18 @@
         transition: all 0.3s;
     }
 
+.forgot-password {
+    margin: 20px;
+    padding-left: 50px;
+    font-size: 14px;
+    color: gray;
+}
+
+.forgot-password span{
+    cursor: pointer;
+    color: red;
+}
+
+.forgot-password span:hover{
+    text-decoration: underline;
+}

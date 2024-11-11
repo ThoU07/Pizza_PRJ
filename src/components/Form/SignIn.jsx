@@ -19,6 +19,9 @@ const SignInForm = () => {
           <input type="password" placeholder="Password" />
         </div>
       </div>
+      <div className="forgot-password">
+        Forgot Password? <span>Click Here!</span>
+      </div>
       <div className="submit-container">
         <button className="Login-button">Login</button>
       </div>
