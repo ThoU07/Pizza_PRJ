@@ -1,37 +1,58 @@
-label {
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.Reg_header, .SignIn_header {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background: #f3e4dc;
+    height: 60px;
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 20px
+}
+
+.input input{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.submit-container {
+    display: flex;
+    margin: 30px auto;
+}
+
+.Submit-button, .Login-button{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 10px;
-    margin-left: auto;
-}
+    background-color: #e68a00;
+    }
 
-.formbtn {
-    background-color: #fff;
-    border-color: black;
-}
+    .Submit-button:hover, .Login-button:hover{
+        scale: 0.9;
+        transition: all 0.3s;
+    }
 
-
-
-.login-form {
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
-}
-.login-form h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.login-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-.login-form input[type="text"],
-.login-form input[type="password"] {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
